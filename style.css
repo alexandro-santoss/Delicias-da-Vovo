@@ -17,6 +17,7 @@ body {
   color: var(--marrom);
 }
 
+/* Cabeçalho */
 header {
   display: flex;
   justify-content: space-between;
@@ -46,9 +47,9 @@ header {
   cursor: pointer;
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
-  background-image: url('https://images.unsplash.com/photo-1605446994673-9b294b6c60c3?auto=format&fit=crop&w=1200&q=60');
+  background-image: url('img/hero.jpg');
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -63,11 +64,7 @@ header {
   display: inline-block;
 }
 
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
+/* Botão */
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -89,6 +86,7 @@ section {
   text-align: center;
 }
 
+/* Cardápio */
 .itens-cardapio {
   display: flex;
   flex-wrap: wrap;
@@ -110,6 +108,55 @@ section {
   border-radius: 8px;
 }
 
+/* Depoimentos */
+.depoimentos {
+  background-color: var(--rosa);
+  color: var(--marrom);
+  position: relative;
+}
+
+.carousel {
+  max-width: 600px;
+  margin: 2rem auto;
+  position: relative;
+}
+
+.depoimento {
+  display: none;
+}
+
+.depoimento.active {
+  display: block;
+}
+
+.depoimento img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.controles {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.controles button {
+  background: var(--marrom);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.controles button:hover {
+  background-color: #3e2723;
+}
+
+/* Contato */
 .contato .redes a {
   display: inline-block;
   margin: 1rem;
@@ -118,13 +165,14 @@ section {
   font-weight: 500;
 }
 
+/* Rodapé */
 footer {
   background-color: var(--rosa);
   text-align: center;
   padding: 1rem;
 }
 
-/* Responsividade */
+/* Responsivo */
 @media (max-width: 768px) {
   .navbar {
     display: none;
