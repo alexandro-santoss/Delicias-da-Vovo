@@ -7,7 +7,7 @@ Projeto criado com foco em um design acolhedor e funcional, refletindo o sabor e
 
 ## 🌐 Demonstração
 
-👉 [Acesse o site aqui](https://seuusuario.github.io/delicias-da-vovo) *(substitua pelo link do GitHub Pages quando publicar)*
+👉 [Acesse o site aqui(https://alexandro-santoss.github.io/Delicias-da-Vovo/)
 
 ![Preview do site](img/hero.jpg)
 
